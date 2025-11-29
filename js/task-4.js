@@ -1,20 +1,20 @@
 function getShippingCost(country) {
   let price;
-  country = country.toLowerCase();
+
   switch (country) {
-    case 'china':
+    case 'China':
       price = 100;
       break;
 
-    case 'chile':
+    case 'Chile':
       price = 250;
       break;
 
-    case 'australia':
+    case 'Australia':
       price = 170;
       break;
 
-    case 'jamaica':
+    case 'Jamaica':
       price = 120;
       break;
 
